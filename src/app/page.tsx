@@ -1,6 +1,6 @@
-import LeftSidebar from '@/components/LeftSidebar';
-import Main from '@/components/Main';
-import RightSection from '@/components/RightSection';
+import LeftSidebar from '@/components/left-sidebar';
+import MainComponent from '@/components/main-component';
+import RightSection from '@/components/right-section';
 
 export const revalidate = 0;
 
@@ -9,7 +9,7 @@ const Home = async () => {
         <div className="w-full h-full flex justify-center items-center text-white relative bg-black">
             <div className="xl:max-w-[70vw] w-full h-full flex relative ">
                 <LeftSidebar />
-                <Main />
+                <MainComponent />
                 <RightSection />
             </div>
         </div>

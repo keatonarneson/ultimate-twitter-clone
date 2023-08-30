@@ -28,7 +28,7 @@ const ComposeTweetForm = ({ serverAction }: ComposeTweetFormProps) => {
 
     return (
         <form
-            action={handleSubmitTweet as any}
+            action={handleSubmitTweet}
             className="flex flex-col w-full h-full"
         >
             <input
